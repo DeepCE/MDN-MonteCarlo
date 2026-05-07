@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.envrc
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+credentials.json
+.aws/
+.minio/
+secrets/
+
+# Data / models / artifacts (non versionare dataset e checkpoint)
+*.dat
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+data/
+datasets/
+models/
+checkpoints/
+results/
+ray_results/
+mlruns/
+wandb/
+
+# Logs / temp
+*.log
+logs/
+*.tmp
+tmp/
+/tmp/
+
+# Plots / output
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.eps
+figures/
+plots/
+output/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Archive / scratch
+_archive/
+scratch/
+sandbox/
